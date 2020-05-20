@@ -9,83 +9,88 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </head>
 <body>
-    <article class="container">
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+        <a href="/" class="navbar-brand">Whiskey Drop</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2"><a href="/" class="nav-link">Home</a></li>
+            <li class="nav-item mr-2"><a href="/about" class="nav-link">About</a></li>
+            <li class="nav-item mr-2 d-block d-sm-none"><a href="/login" class="nav-link">Sign In / Sign Up</a></li>
+        </ul>
+        <div class="d-none d-md-block">
+            <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
+            <a href="/login">Sign In/Sign UP</a>
+        </div>
+    </nav>
+    <article class="container mt-3">
     <!--Callout-->
-        <section class="callout">
-            <h1>The finest whiskeys delivered to your doorstep.</h1>
-            <p class="lead">Sign up today to start receiving the world's best whiskeys every month. <s>£19.99</s> <strong><mark>Free first order!</mark></strong></p>
-            <p class="text-muted"><small>You must be 18 or over to sign up for our service. Please drink responsibly.</small></p>
-            <button class="btn btn-success btn-lg">Sign Up!</button>
-        </section>
+        <div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron text-center">
+                    <h1>The finest whiskeys delivered to your doorstep.</h1>
+                    <p class="lead">Sign up today to start receiving the world's best whiskeys every month. <s>£19.99</s> <strong><mark>Free first order!</mark></strong></p>
+                    <p class="text-muted"><small>You must be 18 or over to sign up for our service. Please drink responsibly.</small></p>
+                    <button class="btn btn-success btn-lg">Sign Up!</button>
+                </section>
+            </div>
+        </div>
     <!--/Callout-->
         <hr>
     <!--Quotes-->    
         <section class="quotes">
-            <h2 class="text-uppercase">Quotes:</h2>
-            <blockquote class="blockquote">
-                <p>I've been introduced to more than 10 great interational whiskeys I have never even knew about !</p>
-                <p>- Jan Kwiatkowski</p>
-            </blockquote>
-            <blockquote class="blockquote">
-                <p>I haven't been sober for months :) </p>
-                <p>- Bartosz M</p>
-            </blockquote>
+            <div class="row">
+                <div class="col-12">  
+                    <h2 class="text-uppercase">Quotes:</h2>
+                </div>  
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <blockquote class="blockquote">
+                        <p>I've been introduced to more than 10 great interational whiskeys I have never even knew about !</p>
+                        <p>- Jan Kwiatkowski</p>
+                    </blockquote>
+                </div>
+                <div class="col-12 col-md-6"> 
+                    <blockquote class="blockquote">
+                        <p>I haven't been sober for months :) </p>
+                        <p>- Bartosz M</p>
+                    </blockquote>
+                </div>
+            </div>
     <!--/Quotes-->
         </section>
         <hr>
     <!--Features-->
         <section class="feature">
-            <h2 class="text-uppercase">Features:</h2>
-            <div class="feature">
-                <h3>Feature 1</h3>
-                <p>dupa dupa dupa fiutek dupa gowno i faflusniaki</p>
-                <p><a class="btn btn-sm bt-light" href="">Read More!</a></p>
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-uppercase">Features:</h2>
+                </div>
             </div>
-            <div class="feature">
-                <h3>Feature 2</h3>
-                <p>trzeba bylo juz dawno zaczac uczyc sie pisania na klawiaturze bez patrzenia i we wlasciwy sposob</p>
-                <p><a class="btn btn-sm bt-light" href="">Read More!</a></p>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 1</h3>
+                        <p>dupa dupa dupa fiutek dupa gowno i faflusniaki</p>
+                        <p><a class="btn btn-sm bt-light" href="">Read More!</a></p>
+                    </div>
+                </div> 
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 2</h3>
+                        <p>trzeba bylo juz dawno zaczac uczyc sie pisania na klawiaturze bez patrzenia i we wlasciwy sposob</p>
+                        <p><a class="btn btn-sm bt-light" href="">Read More!</a></p>
+                    </div>
+                </div> 
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 3</h3>
+                        <p>tak wlasnie sobie to wyglada. czasem kropka, czasem przecinek entliczek pentliczek i bajerka</p>
+                        <p><a class="btn btn-sm bt-light" href="">Read More!</a></p>
+                    </div>
+                </div> 
             </div>
-            <div class="feature">
-                <h3>Feature 3</h3>
-                <p>tak wlasnie sobie to wyglada. czasem kropka, czasem przecinek entliczek pentliczek i bajerka</p>
-                <p><a class="btn btn-sm bt-light" href="">Read More!</a></p>
-            </div>
+        </section>
     <!--/features-->
-        </section>
-        <section>
-            <h2>Monthly favoutrites</h2>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">Name</th>
-                        <th scope="col">Origin</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">McOwski</th>
-                        <td>Poland</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Hibiki</th>
-                        <td>Japan</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Kilchoman</th>
-                        <td>Scotland</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Balvienie</th>
-                        <td>Scotland</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Santori</th>
-                        <td>Japan</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
     </article>
 </body>
 </html>
