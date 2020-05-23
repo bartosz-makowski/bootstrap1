@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #dee2e6;
+    font-weight: bold;
+}
+
+.alert-container {}
+
+/*callout container*/
+.callout-container {
+    height: 100vh;
+    background: url(../images/wbcg.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.callout-container .jumbotron {
+    background-color: rgba(250, 250, 250, 0);
+    padding-top: 15px;
+}
+
+.callout-container p {
+    color: #dee2e6;
+    font-weight:bold;
+}
+.callout-container small {
+    color: #dee2e6;
+    font-weight:bold;
+}
+.quotes-container {}
+
+.features-container {}
+
+
+/*buttons*/
+
+.callout-btn {
+    background-color: #d82f29;
+    border-color: #d82f29;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.callout-btn:hover {
+    background-color: #dee2e6;
+    color: #d82f29;
+    border-color: #dee2e6;
+}
