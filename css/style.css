@@ -2,36 +2,50 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    color: #dee2e6;
-    font-weight: bold;
-}
-
 .alert-container {}
 
 /*callout container*/
 .callout-container {
     height: 100vh;
-    background: url(../images/wbcg.jpg) no-repeat center center; 
+   background: url(../images/wbcg.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position: relative;
 }
 
 .callout-container .jumbotron {
     background-color: rgba(250, 250, 250, 0);
-    padding-top: 15px;
+    margin-top: 80px;
 }
 
 .callout-container p {
     color: #dee2e6;
     font-weight:bold;
+    
 }
 .callout-container small {
     color: #dee2e6;
     font-weight:bold;
 }
+
+.jumbotron h1 {
+    color: #dee2e6;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5)
+
+}
+
 .quotes-container {}
 
 .features-container {}
@@ -40,14 +54,76 @@ h1 {
 /*buttons*/
 
 .callout-btn {
-    background-color: #d82f29;
-    border-color: #d82f29;
+    background-color: #faa005;
+    border-color: #faa005;
     border-radius: 15px;
     font-weight: bold;
+    color:#000;
 }
 
 .callout-btn:hover {
-    background-color: #dee2e6;
-    color: #d82f29;
-    border-color: #dee2e6;
+    background-color: #fade15;
+    color: #000;
+    border-color: #fade15;
+}
+
+.callout-btn:focus,
+.callout-btn:active,
+.callout-btn:active:focus  {
+    background-color:#fade15;
+    border-color:#fade15;
+    box-shadow: 0 0 0 0.2rem #e4cccc80;
+    color: #000;
+}
+
+/*dividers*/
+
+.block-divider--orange {
+    background-color: #fade15;
+    width: 75px;
+    height: 2px;
+    border: 0;
+}
+
+/*Navbar*/
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav {
+    font-weight: bold;
+}
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.alert {
+    border-radius: 0;
+    text-align: center;
+    background-color: #fab84a;
+    border-color: #fab84a;
+    padding: 5px;
 }
